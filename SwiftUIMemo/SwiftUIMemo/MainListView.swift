@@ -13,15 +13,7 @@ struct MainListView: View {
     var body: some View {
         NavigationView { // 쉬프트 커맨드 A
             List(store.list) { memo in
-                VStack(alignment: .leading) {
-                    Text(memo.content)
-                        .font(.body)
-                        .lineLimit(1) // 뒤에 ... 처리.
-                    
-                    Text(memo.insertDate, style: .date)
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
+                MemoCell(memo: memo)
             }
             .listStyle(.plain)
             .navigationTitle("내 메모") // Modifier 라고 불린다.
