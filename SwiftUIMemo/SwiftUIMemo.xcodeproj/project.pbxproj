@@ -44,7 +44,7 @@
 		FB2D1900291F914D00C82ECB = {
 			isa = PBXGroup;
 			children = (
-				FB2D190B291F914D00C82ECB /* Shared */,
+				FB2D190B291F914D00C82ECB /* SwiftUIMemo */,
 				FB2D190A291F914D00C82ECB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB2D190B291F914D00C82ECB /* Shared */ = {
+		FB2D190B291F914D00C82ECB /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
 				FB2D1923291F931100C82ECB /* Memory */,
@@ -66,10 +66,9 @@
 				FB2D1920291F92E100C82ECB /* MainListView.swift */,
 				FB2D1915291F914E00C82ECB /* Assets.xcassets */,
 				FB2D1917291F914E00C82ECB /* SwiftUIMemo.entitlements */,
-				FB2D1910291F914D00C82ECB /* SwiftUIMemo.xcdatamodeld */,
 				FB2D1918291F914E00C82ECB /* Preview Content */,
 			);
-			path = Shared;
+			path = SwiftUIMemo;
 			sourceTree = "<group>";
 		};
 		FB2D1918291F914E00C82ECB /* Preview Content */ = {
@@ -84,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				FB2D190E291F914D00C82ECB /* Persistence.swift */,
+				FB2D1910291F914D00C82ECB /* SwiftUIMemo.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";

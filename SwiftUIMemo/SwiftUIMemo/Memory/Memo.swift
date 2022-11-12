@@ -16,7 +16,7 @@ class Memo: Identifiable, ObservableObject {
     let insertDate: Date
     
     init(content: String, insertDate: Date = Date.now) {
-        id == UUID()
+        id = UUID()
         self.content = content
         self.insertDate = insertDate
     }
